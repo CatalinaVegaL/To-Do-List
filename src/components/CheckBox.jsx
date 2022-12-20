@@ -34,7 +34,7 @@ const Checkbox = (props) => {
         <input
           className="todo__state"
           name={id}
-          type="checkbox"
+          type="Checkbox"
           defaultChecked={done}
           // Evento que define las acciones a ejecutar cuando el evento ocurra
           onChange={onChange}
