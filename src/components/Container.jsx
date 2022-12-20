@@ -4,9 +4,9 @@ import React, { useState } from "react"; // Se importa el hook useState de contr
 import TaskList from "./TaskList";
 import FormTodo from "./FormTodo";
 
-//Creacion de funcion 
+//Creacion de funcion
 const Container = (_) => {
-   //Uso del hook useState para dar un estado inicial
+  //Uso del hook useState para dar un estado inicial
   const [list, setList] = useState([]);
   const handleAddItem = (addItem) => {
     //Añade tarea al array

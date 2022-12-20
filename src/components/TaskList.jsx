@@ -1,7 +1,7 @@
 //Importacion de React
 import React from "react";
 //Importacion del componente CheckBox
-import CheckBox from "./CheckBox"; 
+import Checkbox from "./Checkbox"; 
 
 // Declaración de constante del FormTodo, este recibe como parametros props
 const TaskList = (props) => {
@@ -29,7 +29,7 @@ const TaskList = (props) => {
   //Funcion que recorre la lista de tareas
   const chk = list.map((item) => (
     //Añade un ckeckbox para cada item de la lista 
-    <CheckBox key={item.id} data={item} onChange={onChangeStatus} />
+    <Checkbox key={item.id} data={item} onChange={onChangeStatus} />
   ));
   // Se retorna estructura HTML
   return (
