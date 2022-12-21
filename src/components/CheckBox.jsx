@@ -11,7 +11,7 @@ const Checkbox = (props) => {
   // Retorna una estructura HTML
   return (
     <Fragment>
-       <svg
+      <svg
         viewBox="0 0 0 0"
         // Estilos
         style={{ position: "absolute", zIndex: -1, opacity: 0 }}
